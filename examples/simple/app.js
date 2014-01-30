@@ -28,7 +28,6 @@ app.configure("development", function() {
 });
 
 css.addFile(__dirname + "/style.css");
-css.addFile(__dirname + "/style.styl");
 css.addFile(__dirname + "/style.less");
 
 js.addOb({MY: {
